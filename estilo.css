@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color:aliceblue;
+  }
+  .fundoFigura {
+    width: 35vw;
+    height: 35vw;
+    position: absolute;
+    transform: translate(-135%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  body {
+    margin: 0;
+}
+#container-imagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url('gatito.jpg');
+    background-size: cover;
+}
+  .figura {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    border-radius: 25px;
+  }
+  .conteudo {
+    width: 58vw;
+    height: 35vw;
+    position: absolute;
+    transform: translate(-15%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  .conteudo p {
+    font-family: Tahoma;
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 0 2vw;
+    margin: 25% 0% 5% 0%;
+  }
+.conteudo ul{
+    font-size: 20px;
+}
